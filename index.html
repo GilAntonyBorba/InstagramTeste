@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            gap: 0.1em;
+            margin: 0.5em;
+        }
+        .container div{
+            width: 33%;
+            height: 33%;
+        }
+        .container div img{
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .seguidores{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .informacoes{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            width: 65%;
+            height: 65%;
+            margin: 1em;
+        }
+        .perfil{
+            width: 33%;
+            height: 33%;
+        }
+        .perfil img{
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        .container_perfil{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .editar_perfil{
+            text-align: center;
+            padding: 0.5em;
+            background-color: rgb(192, 192, 192);
+            color: blue;
+            border-radius: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .nome{
+            margin: 0.5em;
+            
+        }
+        
+    </style>
+
+<body>
+
+    <div class="container_perfil">
+        <div class="perfil">
+            <img src="imagens/avatar-the-way-of-water-7680x7680-9655.jpg" alt="foto_perfil">
+        </div>
+        <div class="informacoes">
+            <div class="seguidores">
+                <div>
+                    <p>8</p>
+                    <p>Posts</p>
+                </div>
+                <div>
+                    <p>12K</p>
+                    <p>Seguidores</p>
+                </div>
+                <div>
+                    <p>2K</p>
+                    <p>Seguindo</p>
+                </div>
+            </div>
+            <div class="editar_perfil">
+                <a href="#">Editar Perfil</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="nome">
+        <h3>Pedro Matheus</h3>
+        <p>Lorem, ipsum dolor sit amet.</p>
+    </div>
+
+
+    <div class="container">
+        <div><img src="imagens/avatar-the-way-of-water-7680x7680-9655.jpg" alt="foto1"></div>
+        <div><img src="imagens/avatar-the-way-of-water-7680x7680-9655.jpg" alt="foto2"></div>
+        <div><img src="imagens/avatar-the-way-of-water-7680x7680-9655.jpg" alt="foto3"></div>
+        <div><img src="imagens/avatar-the-way-of-water-7680x7680-9655.jpg" alt="foto4"></div>
+        <div><img src="imagens/avatar-the-way-of-water-7680x7680-9655.jpg" alt="foto5"></div>
+        <div><img src="imagens/avatar-the-way-of-water-7680x7680-9655.jpg" alt="foto6"></div>
+    </div>
+</body>
+</html>
